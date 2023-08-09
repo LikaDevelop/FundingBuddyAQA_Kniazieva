@@ -1,0 +1,157 @@
+#TC1 SIGN IN
+
+### Preconditions:
+
+- Open Main Page (https://protest1.fun)
+
+### Steps to reproduce:
+
+1. Push on inscription "Sign In", which is in the upper right corner of the main page
+2. Enter email into the form "Sign In", field "Email"
+3. Enter password into the form "Sign In", field "Password"
+4. Push on the button "Sign In"on the form "Sign In"
+
+### Positive outcomes:
+
+- On the bar-menu has inscription "My account"
+- On the bar-menu has inscription "Log Out"
+
+#######################################################################################
+
+TC2 GO TO THE QUIZ BY CLICK ON THE BUTTON ON THE MAIN PAGE
+
+### Preconditions:
+
+- Open Main Page (https://protest1.fun)
+
+### Steps to reproduce:
+
+1. Click on the button "Apply Now" on the Main Page
+
+### Positive outcomes:
+
+- Customer go to the first question of Quiz ("Please, select your company type")
+- All variations of answers is visible on page (anyone no active)
+- Button "Support&Help" is visible on page
+- Link must be with prefix "/quiz#entityType"
+
+#########################################################################################
+
+TC3 QUIZ AUTODECLINE (part 1.1 from 4)
+
+### Preconditions:
+
+- Open Main Page (https://protest1.fun)
+- Go to the Quiz (TC2)
+
+### Steps to reproduce:
+
+1. Answer to question of Quiz "Please, select your company type" - answer "I don't own, a business yet"
+2. Go to question of Quiz "What is your approximate credit score?"
+3. Choose answer "Below 500"
+
+### Positive outcomes:
+
+- Customer go to the autodecline page
+- On the autodecline page has button "Back"
+
+#########################################################################################
+
+#TC4 GO TO THE PERSONAL REGISTRATION
+
+### Preconditions:
+
+- Open Main Page (https://protest1.fun)
+- Go to the Quiz (TC2)
+
+### Steps to reproduce:
+
+1. Answer to question of Quiz "Please, select your company type" - answer "I don't own, a business yet"
+2. Answer to question of Quiz "What is your approximate credit score?" - answer "700+"
+3. Answer to question of Quiz "How much capital do you need?" - answer "5000-10000"
+4. Answer to question of Quiz "What do you need the financing for?" - answer "Advertising"
+
+### Positive outcomes:
+
+- Customer is on Registration form
+
+#########################################################################################
+
+TC5 BACK TO QUESTION CREDIT SCORE OF QUIZ
+
+### Preconditions:
+
+- Open Main Page (https://protest1.fun)
+- Go to the Quiz (TC2)
+- Pass the first question of Quiz (with answ "I don't own, a business yet")
+- Pass the second question of Quiz (with answ "700+")
+
+### Steps to reproduce:
+
+1. On the page of quiz with question "How much capital do you need?" press on the button "Back"
+
+### Positive outcomes:
+
+- Customer is on page Credit Score
+- Active tick is on answ "700+"
+
+#########################################################################################
+
+TC6 BACK TO QUESTION CREDIT SCORE OF QUIZ AND CHOOSE ANSW "651-700"
+
+### Preconditions:
+
+- Open Main Page (https://protest1.fun)
+- Go to the Quiz (TC2)
+- Pass the first question of Quiz (with answ "I don't own, a business yet")
+- Pass the second question of Quiz (with answ "700+")
+
+### Steps to reproduce:
+
+1. Press button "Back" on quiz page Capital
+2. Press on answer "651-700" on page of Quiz "Personal Credit Score"
+3. Check the pop up window with "Select and Leave"
+4. Press on "Select "651-700""
+
+### Positive outcomes:
+
+- Customer is on page of quiz Capital
+- If press on button "Back" on the page of quiz "Capital" - active tick is on answ "700+"
+- In customer account after registration will be answer "651-700"
+
+#########################################################################################
+
+TC7 REGISTRATION PERSONAL TEST
+
+### Preconditions:
+- Open Main Page (https://protest1.fun)
+- Go to the Quiz (TC2)
+- Answer to question of Quiz "Please, select your company type" - answer "I don't own, a business yet"
+- Answer to question of Quiz "What is your approximate credit score?" - answer "700+"
+- Answer to question of Quiz "How much capital do you need?" - answer "5000-10000"
+- Answer to question of Quiz "What do you need the financing for?" - answer "Advertising"\
+- Go to Registration Personal Form (TC4)
+
+### Steps to reproduce:
+1. Fill in field "Full Name". Two words without numbers.
+2. Fill in field "Cell Phone". Only numbers, 10 digits.
+3. Fill in field "E-mail". Only valid email.
+4. Fill in field "Password". The password should be at least 8 characters long,
+   and should include at least one digit and one uppercase letter.
+5. Press on button "Continue"
+
+### Positive outcomes:
+
+- Customer go to Application stage
+- Customer's info is in admin account
+
+#########################################################################################
+
+TC8 TEST TURN TO CANADIAN VERSION
+
+
+#########################################################################################
+
+TC9 REGISTRATION LIKE CANADIAN
+
+#########################################################################################
