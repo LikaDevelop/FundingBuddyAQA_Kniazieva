@@ -33,11 +33,10 @@ TC2 GO TO THE QUIZ BY CLICK ON THE BUTTON ON THE MAIN PAGE
 - Customer go to the first question of Quiz ("Please, select your company type")
 - All variations of answers is visible on page (anyone no active)
 - Button "Support&Help" is visible on page
-- Link must be with prefix "/quiz#entityType"
 
 #########################################################################################
 
-TC3 QUIZ AUTODECLINE (part 1.1 from 4)
+TC3 QUIZ AUTODECLINE (part 1.1 from 4) ONLY FOR CANADA
 
 ### Preconditions:
 
@@ -116,8 +115,7 @@ TC6 BACK TO QUESTION CREDIT SCORE OF QUIZ AND CHOOSE ANSW "651-700"
 ### Positive outcomes:
 
 - Customer is on page of quiz Capital
-- If press on button "Back" on the page of quiz "Capital" - active tick is on answ "700+"
-- In customer account after registration will be answer "651-700"
+- In customer account after registration will be answered "651-700"
 
 #########################################################################################
 
@@ -143,7 +141,6 @@ TC7 REGISTRATION PERSONAL TEST
 ### Positive outcomes:
 
 - Customer go to Application stage
-- Customer's info is in admin account
 
 #########################################################################################
 

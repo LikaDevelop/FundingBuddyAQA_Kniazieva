@@ -16,4 +16,3 @@ def chrome(request):
     yield driver
     driver.quit()
 
-
